@@ -5,7 +5,7 @@
 from weecfg.extension import ExtensionInstaller
 
 def loader():
-    return rs485-solarInstaller()
+    return Rs485SolarInstaller()
 
 class Rs485SolarInstaller(ExtensionInstaller):
     def __init__(self):
