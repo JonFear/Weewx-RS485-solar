@@ -7,9 +7,9 @@ from weecfg.extension import ExtensionInstaller
 def loader():
     return rs485-solarInstaller()
 
-class rs485-solarInstaller(ExtensionInstaller):
+class Rs485SolarInstaller(ExtensionInstaller):
     def __init__(self):
-        super(rs485-solarInstaller, self).__init__(
+        super(Rs485SolarInstaller, self).__init__(
             version="0.1",
             name='rs485-solar',
             description='Collect data from PYR20 Solar hardware',
